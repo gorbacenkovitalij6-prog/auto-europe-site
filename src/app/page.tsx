@@ -633,7 +633,7 @@ export default function Home() {
           {/* Bottom Banner */}
           <div className="bg-gradient-to-r from-[#BF360C] to-[#D84315] rounded-lg overflow-hidden shadow-lg mt-4">
             <div className="grid grid-cols-1 lg:grid-cols-2">
-              <div className="p-6 flex flex-col justify-center">
+              <div className="p-6 flex flex-col justify-start">
                 <h3 className="text-xl font-bold text-white mb-3">
                   «ОРЕОН» — ВАШ НАДЕЖНЫЙ ПАРТНЁР
                 </h3>
