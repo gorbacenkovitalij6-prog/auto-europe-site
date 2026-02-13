@@ -640,9 +640,43 @@ export default function Home() {
                 <p className="text-white mb-2 text-sm">
                   в покупке автомобилей из Европы.
                 </p>
-                <p className="text-white/90 mb-3 text-xs">
+                <p className="text-white/90 mb-3 text-sm leading-relaxed">
                   Экономьте ваше время. Берегите ваши нервы. Защищаем ваши интересы.
                 </p>
+
+                <div className="mb-4 space-y-2">
+                  <div className="flex items-start gap-2">
+                    <span className="text-white font-bold text-sm">✓</span>
+                    <p className="text-white/95 text-xs leading-relaxed">
+                      <strong>Более 13 лет опыта</strong> — успешно доставили 1000+ автомобилей по всей России
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-white font-bold text-sm">✓</span>
+                    <p className="text-white/95 text-xs leading-relaxed">
+                      <strong>Экономия 20-30%</strong> — цены ниже рынка благодаря прямым поставкам из Европы
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-white font-bold text-sm">✓</span>
+                    <p className="text-white/95 text-xs leading-relaxed">
+                      <strong>Полное сопровождение</strong> — от подбора до получения ключей и постановки на учёт
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-white font-bold text-sm">✓</span>
+                    <p className="text-white/95 text-xs leading-relaxed">
+                      <strong>Юридическая гарантия</strong> — все документы, договоры и проверки в соответствии с законом РФ
+                    </p>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-white font-bold text-sm">✓</span>
+                    <p className="text-white/95 text-xs leading-relaxed">
+                      <strong>Прозрачные цены</strong> — фиксируем все расходы в договоре, никаких скрытых платежей
+                    </p>
+                  </div>
+                </div>
+
                 <div className="flex items-start gap-2">
                   <a
                     href="https://t.me/OreonAuto"
