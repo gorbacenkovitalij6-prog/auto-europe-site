@@ -7,52 +7,56 @@ import Link from 'next/link';
 export default function TeamPage() {
   const teamMembers = [
     {
-      name: 'Дмитрий Стебельков',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=faces'
+      name: 'Андрей Игоревич',
+      image: 'https://i.ibb.co/bjNBwTnK/photo-2026-02-13-15-50-56.jpg'
     },
     {
-      name: 'Андрей Олейник',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces'
+      name: 'Юрий Владимирович',
+      image: 'https://i.ibb.co/jvZbqk5n/photo-2026-02-13-15-51-11.jpg'
     },
     {
-      name: 'Карташов Алексей',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=faces'
+      name: 'Виктор Васильевич',
+      image: 'https://i.ibb.co/WvzNYTqS/photo-2026-02-13-15-51-15.jpg'
     },
     {
-      name: 'Андрейцева Яна',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces'
+      name: 'Роман Сергеевич',
+      image: 'https://i.ibb.co/4Zhk2DwD/photo-2026-02-13-15-51-19.jpg'
     },
     {
-      name: 'Сечин Давид',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces'
+      name: 'Михаил Андреевич',
+      image: 'https://i.ibb.co/99tPWVZP/photo-2026-02-13-15-51-24.jpg'
     },
     {
-      name: 'Андрей Мальков',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces'
+      name: 'Смирнов Артём',
+      image: 'https://i.ibb.co/0RmH9Fg3/photo-2026-02-13-15-51-27.jpg'
     },
     {
-      name: 'Марьенков Аркадий',
-      image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=faces'
+      name: 'Иван Алексеевич',
+      image: 'https://i.ibb.co/CqF3bB8/photo-2026-02-13-15-51-31.jpg'
     },
     {
-      name: 'Романов Руслан',
-      image: 'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=400&h=400&fit=crop&crop=faces'
+      name: 'Алексей Александрович',
+      image: 'https://i.ibb.co/dw239xSw/photo-2026-02-13-15-51-34.jpg'
     },
     {
-      name: 'Иванов Сергей',
-      image: 'https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop&crop=faces'
+      name: 'Андрей Евгеньевич',
+      image: 'https://i.ibb.co/39dM8DnT/photo-2026-02-13-15-51-38.jpg'
     },
     {
-      name: 'Петров Александр',
-      image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=400&h=400&fit=crop&crop=faces'
+      name: 'Александр Петрович',
+      image: 'https://i.ibb.co/232vM00R/photo-2026-02-13-15-51-41.jpg'
     },
     {
-      name: 'Смирнов Михаил',
-      image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&h=400&fit=crop&crop=faces'
+      name: 'Сергей Олегович',
+      image: 'https://i.ibb.co/FkDmPZ27/photo-2026-02-13-15-51-44.jpg'
     },
     {
-      name: 'Козлова Елена',
-      image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop&crop=faces'
+      name: 'Владимир Валерьевич',
+      image: 'https://i.ibb.co/JjVwRGBc/photo-2026-02-13-15-51-48.jpg'
+    },
+    {
+      name: 'Михаил Сергеевич',
+      image: 'https://i.ibb.co/XfJRxK9x/photo-2026-02-13-15-51-51.jpg'
     }
   ];
 
