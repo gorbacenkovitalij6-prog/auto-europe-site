@@ -694,7 +694,7 @@ export default function Home() {
               </div>
               <div className="relative h-48 lg:h-auto">
                 <img
-                  src="https://i.ibb.co/v6303Bms/Gemini-Generated-Image-2472n62472n62472.png"
+                  src="https://i.ibb.co/7dwPNDMn/Gemini-Generated-Image-1towxm1towxm1tow-1.jpg"
                   alt="Toyota RAV4"
                   className="w-full h-full object-cover"
                 />
