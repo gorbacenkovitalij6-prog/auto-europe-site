@@ -158,13 +158,15 @@ export default function AboutPage() {
               </p>
             </div>
 
-            {/* Right side - Car Image */}
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1200&h=800&fit=crop"
-                alt="Автомобиль"
-                className="w-full h-auto rounded-lg"
-              />
+            {/* Right side - Video */}
+            <div className="relative aspect-video rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.youtube.com/embed/ABJUFzBYvhU"
+                title="О компании ОРЕОН"
+                className="w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
