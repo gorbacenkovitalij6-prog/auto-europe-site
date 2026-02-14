@@ -159,11 +159,18 @@ export default function AboutPage() {
             </div>
 
             {/* Right side - Video */}
-            <div className="relative aspect-video rounded-lg overflow-hidden">
+            <div className="relative rounded-lg overflow-hidden bg-[#BF360C]" style={{ paddingBottom: '56.25%', height: 0 }}>
               <iframe
                 src="https://www.youtube.com/embed/ABJUFzBYvhU"
                 title="О компании ОРЕОН"
-                className="w-full h-full"
+                className="absolute border-0"
+                style={{
+                  top: '50%',
+                  left: '50%',
+                  width: '133.33%',
+                  height: '133.33%',
+                  transform: 'translate(-50%, -50%)'
+                }}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
