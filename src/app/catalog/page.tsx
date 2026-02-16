@@ -106,11 +106,11 @@ export default function CatalogPage() {
               <Send className="w-5 h-5 text-white" />
             </a>
             <a
-              href="tel:+79991234567"
+              href="tel:+78172263435"
               className="flex items-center gap-2 bg-white text-[#BF360C] hover:bg-gray-100 px-4 py-2 rounded-full font-medium shadow-sm transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
-              <span className="text-sm font-semibold">+7 (999) 123-45-67</span>
+              <span className="text-sm font-semibold">+7 (817) 226-34-35</span>
             </a>
           </div>
         </div>
