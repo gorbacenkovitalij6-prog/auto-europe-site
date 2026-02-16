@@ -141,8 +141,25 @@ export default function TeamPage() {
       {/* Team Members Grid */}
       <section className="py-12 px-8 bg-white">
         <div className="max-w-screen-2xl mx-auto">
+          {/* First member - centered */}
+          <div className="flex justify-center mb-12">
+            <div className="flex flex-col items-center">
+              <div className="w-64 h-64 rounded-full overflow-hidden mb-4 border-4 border-[#BF360C]">
+                <img
+                  src={teamMembers[0].image}
+                  alt={teamMembers[0].name}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-[#0A2540] text-center">
+                {teamMembers[0].name}
+              </h3>
+            </div>
+          </div>
+
+          {/* Rest of the team - 4 columns grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
+            {teamMembers.slice(1).map((member, index) => (
               <div key={index} className="flex flex-col items-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-4 border-4 border-gray-200">
                   <img
