@@ -231,9 +231,15 @@ export default function CatalogPage() {
                     <div className="text-3xl font-bold text-[#0A7ABF]">
                       {car.price.toLocaleString()} ₽
                     </div>
-                    <Button className="bg-[#0A7ABF] hover:bg-[#095A8F]">
-                      Подробнее
-                    </Button>
+                    <a
+                      href="https://t.me/OreonAuto"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button className="bg-[#0A7ABF] hover:bg-[#095A8F]">
+                        Подробнее
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
