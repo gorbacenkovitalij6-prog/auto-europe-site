@@ -774,7 +774,7 @@ export default function Home() {
               <h3 className="font-bold mb-3 text-white/60">Адрес</h3>
               <p className="text-sm">
                 160019, Вологодская область,<br />
-                г. Вологда, ул. Ленинградская, д. 18
+                город Вологда, ул. Старое шоссе, д.18
               </p>
             </div>
 

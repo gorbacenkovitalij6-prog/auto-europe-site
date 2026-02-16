@@ -235,7 +235,7 @@ export default function TeamPage() {
               <h3 className="font-bold mb-2 text-white/60 text-xs">Адрес</h3>
               <p className="text-xs">
                 160019, Вологодская область,<br />
-                г. Вологда, ул. Ленинградская, д. 18
+                город Вологда, ул. Старое шоссе, д.18
               </p>
             </div>
 
