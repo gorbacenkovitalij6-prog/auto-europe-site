@@ -49,11 +49,11 @@ export function Header() {
             <Send className="w-4 h-4 text-white/70 group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
-            href="tel:+78112000000"
+            href="tel:+74951856386"
             className="hidden lg:flex items-center gap-2 bg-gradient-to-r from-primary to-blue-600 hover:from-blue-600 hover:to-primary text-white px-5 py-2.5 rounded-full font-medium shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transform hover:-translate-y-0.5 whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
-            <span className="text-sm tracking-wide">+7 (811) 200-00-00</span>
+            <span className="text-sm tracking-wide">+7 (495) 185-63-86</span>
           </a>
         </div>
       </div>
