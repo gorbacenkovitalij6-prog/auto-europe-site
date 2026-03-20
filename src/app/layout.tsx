@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ЛТС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 13 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
-    url: "https://auto-europe-site.netlify.app",
+    url: "https://lts-prigon.ru",
     siteName: "ЛТС - Авто из Европы",
     type: "website",
     locale: "ru_RU",
     images: [
       {
-        url: "https://i.ibb.co/99MMvGWQ/Gemini-Generated-Image-c24usmc24usmc24u.jpg",
+        url: "https://lts-prigon.ru/lts_office.png",
         width: 1200,
         height: 630,
         alt: "ЛТС - Автомобили из Европы",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ЛТС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 13 лет на рынке, 1000+ довольных клиентов.",
-    images: ["https://i.ibb.co/99MMvGWQ/Gemini-Generated-Image-c24usmc24usmc24u.jpg"],
+    images: ["https://lts-prigon.ru/lts_office.png"],
   },
   robots: {
     index: true,
