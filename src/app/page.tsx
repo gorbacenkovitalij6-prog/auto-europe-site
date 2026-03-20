@@ -154,7 +154,7 @@ export default function Home() {
                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 shrink-0">
                   <Clock className="w-5 h-5 text-primary" />
                 </div>
-                <div className="text-sm font-medium text-white/80">Доставка от<br/>2 до 4 недель</div>
+                <div className="text-sm font-medium text-white/80">Доставка от<br/>7 до 14 дней</div>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 shrink-0">
@@ -1141,7 +1141,7 @@ function FAQSection() {
     },
     {
       question: "Как долго доставляется автомобиль из Европе?",
-      answer: "Средний срок доставки составляет от 2 до 4 недель с момента покупки автомобиля. Это включает время на оформление документов, логистику и растаможку. Точные сроки зависят от страны отправления и текущей загруженности таможни."
+      answer: "Средний срок доставки составляет от 7 до 14 дней с момента покупки автомобиля. Это включает время на оформление документов, логистику и растаможку. Точные сроки зависят от страны отправления и текущей загруженности таможни."
     },
     {
       question: "Какие гарантии вы предоставляете?",
