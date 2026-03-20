@@ -285,11 +285,11 @@ export default function AboutPage() {
             {/* Card 2 - Fixed Price */}
             <div className="glass-panel border-white/10 rounded-2xl p-6 flex flex-col hover:border-primary/40 transition-colors">
               <h3 className="text-lg font-bold text-white mb-4">
-                СТОИМОСТЬ В ДОГОВОРЕ<br />
-                НЕ МЕНЯЕТСЯ
+                СТОИМОСТЬ «ПОД КЛЮЧ»<br />
+                ФИКСИРУЕТСЯ В ДОГОВОРЕ
               </h3>
               <p className="text-xs text-white/70 mb-4">
-                Вы сразу получаете смету перед подписанием договора и она не меняется — <strong className="text-white">все расходы фиксируем в договоре.</strong>
+                Вы сразу получаете полную смету перед подписанием. Никаких доплат в пути — <strong className="text-white">итоговая цена авто «под ключ» строго закреплена в договоре.</strong>
               </p>
               <p className="text-xs text-primary/80 italic mt-auto pt-4 border-t border-white/10">
                 Никаких сюрпризов на этапе растаможки или доставки.
