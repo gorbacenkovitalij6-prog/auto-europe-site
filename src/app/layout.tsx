@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     locale: "ru_RU",
     images: [
       {
-        url: "https://lts-prigon.ru/lts_office.png",
+        url: "https://lts-prigon.ru/lts_office_preview.jpg",
         width: 1200,
         height: 630,
         alt: "ЛТС - Автомобили из Европы",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ЛТС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 13 лет на рынке, 1000+ довольных клиентов.",
-    images: ["https://lts-prigon.ru/lts_office.png"],
+    images: ["https://lts-prigon.ru/lts_office_preview.jpg"],
   },
   robots: {
     index: true,
