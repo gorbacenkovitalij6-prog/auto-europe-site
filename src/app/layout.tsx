@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   keywords: "авто из европы, автомобили из европы, пригон авто, растаможка авто, ЛТС",
   authors: [{ name: "ЛТС" }],
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
   },
   openGraph: {
     title: "ЛТС - Авто из Европы с доставкой по РФ",
