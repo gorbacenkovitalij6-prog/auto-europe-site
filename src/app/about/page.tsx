@@ -99,14 +99,8 @@ export default function AboutPage() {
             </div>
 
             {/* Right side - Video */}
-            <div className="relative aspect-video rounded-lg overflow-hidden">
-              <iframe
-                src="https://www.youtube.com/embed/ABJUFzBYvhU"
-                title="О компании ЛТС"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            <div className="relative aspect-video rounded-lg overflow-hidden bg-white/5 border border-white/10 flex items-center justify-center">
+              <div className="text-white/50 text-base font-medium tracking-wide">Видео скоро появится</div>
             </div>
           </div>
         </div>
