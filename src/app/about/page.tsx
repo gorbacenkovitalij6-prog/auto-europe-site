@@ -88,7 +88,7 @@ export default function AboutPage() {
             {/* Left side - Text */}
             <div className="text-white space-y-4">
               <p className="text-base leading-relaxed">
-                <strong>«ЛТС»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 13 лет.
+                <strong>«ЛТС»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 11 лет.
               </p>
               <p className="text-base leading-relaxed">
                 Мы работаем напрямую с европейскими дилерами, аукционами и проверенными продавцами, чтобы вы получали честный, прозрачный и выгодный вариант без переплат перекупам.
