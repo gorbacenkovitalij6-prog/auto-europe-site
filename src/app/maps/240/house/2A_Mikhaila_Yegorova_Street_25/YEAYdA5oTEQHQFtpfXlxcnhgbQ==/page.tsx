@@ -208,7 +208,7 @@ export default function Page() {
   const handleCallButtonClick = () => {
     if (showPhoneNumber) {
       // Второе нажатие - звоним
-      window.location.href = 'tel:+74951856386';
+      window.location.href = 'tel:+79393223704';
     } else {
       // Первое нажатие - показываем номер
       setShowPhoneNumber(true);
@@ -429,6 +429,18 @@ export default function Page() {
               </svg>
               <span className="hidden lg:inline text-[15px]">Маршрут</span>
             </button>
+            <a
+              href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 hover:bg-gray-100 rounded-full transition md:flex md:items-center md:gap-2"
+              aria-label="Max Messenger"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="lg:w-5 lg:h-5">
+                <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z" fill="currentColor"/>
+              </svg>
+              <span className="hidden lg:inline text-[15px]">Max</span>
+            </a>
             <button
               onClick={() => setIsWidgetVisible(false)}
               className="p-2 hover:bg-gray-100 rounded-full transition"
@@ -542,7 +554,7 @@ export default function Page() {
                   <div>
                     <div className="text-[13px] lg:text-[14px] font-medium text-gray-800 mb-0.5">Телефон</div>
                     {showPhoneNumber ? (
-                      <a href="tel:+74951856386" className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (495) 185-63-86</a>
+                      <a href="tel:+79393223704" className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (939) 322-37-04</a>
                     ) : (
                       <button
                         onClick={() => setShowPhoneNumber(true)}
@@ -590,7 +602,7 @@ export default function Page() {
               {/* Quick Actions */}
               <div className="flex gap-2 lg:gap-3 mb-5 lg:mb-6">
                 <a
-                  href="tel:+74951856386"
+                  href="tel:+79393223704"
                   className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 lg:px-4 py-2.5 rounded-lg text-[13px] lg:text-[14px] font-medium transition-all active:scale-95 text-center"
                 >
                   Позвонить
@@ -2043,7 +2055,7 @@ export default function Page() {
                             <div className="text-[12px] xs:text-[13px] font-medium text-gray-800 mb-0.5">Телефон</div>
                             <div className="flex items-center gap-2">
                               {showPhoneNumber ? (
-                                <a href="tel:+74951856386" className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (495) 185-63-86</a>
+                                <a href="tel:+79393223704" className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (939) 322-37-04</a>
                               ) : (
                                 <button
                                   onClick={() => setShowPhoneNumber(true)}
@@ -2093,7 +2105,7 @@ export default function Page() {
                       {/* Quick Actions */}
                       <div className="flex gap-2">
                         <a
-                          href="tel:+74951856386"
+                          href="tel:+79393223704"
                           className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 py-2.5 rounded-lg text-[13px] font-medium transition-all active:scale-95 text-center"
                         >
                           Позвонить
@@ -3458,8 +3470,8 @@ export default function Page() {
               </svg>
               <span className="text-[15px] font-medium">Номер телефона:</span>
             </div>
-            <a href="tel:+74951856386" className="text-[18px] font-bold hover:underline">
-              +7 (495) 185-63-86
+            <a href="tel:+79393223704" className="text-[18px] font-bold hover:underline">
+              +7 (939) 322-37-04
             </a>
             <div className="text-[13px] mt-2 opacity-90">
               Нажмите еще раз для звонка

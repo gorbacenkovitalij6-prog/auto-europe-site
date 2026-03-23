@@ -8,8 +8,8 @@ export const companyConfig = {
   category: "Автосалон, пригон автомобилей",
 
   // Контакты
-  phone: "+7 (495) 185-63-86",
-  phoneLink: "+74951856386",
+  phone: "+7 (939) 322-37-04",
+  phoneLink: "+79393223704",
   email: "ooo.lts@autorambler.ru",
   website: "transavtopskov.ru",
 
