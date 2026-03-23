@@ -1,4 +1,16 @@
-export const reviewsData = [
+export interface Review {
+  id: number;
+  name: string;
+  level: string;
+  date: string;
+  rating: number;
+  text: string;
+  avatar: string;
+  hasMore: boolean;
+  photos?: string[];
+}
+
+export const reviewsData: Review[] = [
   {
     "id": 1,
     "name": "Алёна Кузнецова",
