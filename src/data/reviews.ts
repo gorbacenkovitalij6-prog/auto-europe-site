@@ -18,7 +18,7 @@ export const reviewsData: Review[] = [
     "date": "22 марта",
     "rating": 4,
     "text": "Отличный сервис! Пригнали авто из Германии за 2 недели. Состояние идеальное, цена как договаривались. Огромное спасибо!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АлёнаКузнецова",
+    "avatar": "https://i.ibb.co/B2GHYvJS/564595388-122096474253082913-3266758503460160106-n.jpg",
     "hasMore": true
   },
   {
@@ -28,7 +28,7 @@ export const reviewsData: Review[] = [
     "date": "15 марта",
     "rating": 5,
     "text": "Обращался за помощью в подборе машины из Кореи. Ребята сработали на отлично — проверили всё от и до, быстро доставили. Рекомендую!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АрсенийКозлов",
+    "avatar": "https://i.ibb.co/6cBpkVJb/79796855-3280557498638452-2998598019760259072-n.jpg",
     "hasMore": true
   },
   {
@@ -38,7 +38,7 @@ export const reviewsData: Review[] = [
     "date": "2 марта",
     "rating": 5,
     "text": "Очень доволен покупкой. Помогли выбрать семейный кроссовер. Честные продавцы, прозрачная история авто.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МарияНиколаева",
+    "avatar": "https://i.ibb.co/9kKxZntJ/267471853-4665661213488929-6825833735112074404-n.jpg",
     "hasMore": true
   },
   {
@@ -48,7 +48,7 @@ export const reviewsData: Review[] = [
     "date": "28 февраля",
     "rating": 5,
     "text": "Спасибо команде! Заказывала машину из Японии, всё прошло гладко. Ребята всегда были на связи и отвечали на все вопросы.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АннаСоколова",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Elena-Smirnova",
     "hasMore": true
   },
   {
@@ -58,7 +58,7 @@ export const reviewsData: Review[] = [
     "date": "14 февраля",
     "rating": 5,
     "text": "Надёжная компания. Оформили все документы за пару часов. Машина полностью соответствует заявленным характеристикам. Всем советую!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ВладиславНиколаев",
+    "avatar": "https://i.ibb.co/s9kxKym5/363995893-6696979166988894-3149608139252621505-n.jpg",
     "hasMore": true
   },
   {
@@ -68,7 +68,7 @@ export const reviewsData: Review[] = [
     "date": "1 февраля",
     "rating": 4,
     "text": "Долго искал хороший вариант на вторичке, но в итоге заказал здесь из Европы. Не жалею! Машина как новая.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МарияЛебедева",
+    "avatar": "https://i.ibb.co/RGWQ5GvR/412934446-908765844584304-179410972495721449-n.jpg",
     "hasMore": true
   },
   {
@@ -78,7 +78,7 @@ export const reviewsData: Review[] = [
     "date": "20 января",
     "rating": 4,
     "text": "Профессионалы своего дела. Никаких скрытых комиссий, всё чётко по договору. Автомобилем полностью довольна.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ЕгорНиколаев",
+    "avatar": "https://images.unsplash.com/photo-1599496507927-9056debd0f0a?w=400",
     "hasMore": true
   },
   {
@@ -88,7 +88,7 @@ export const reviewsData: Review[] = [
     "date": "10 января",
     "rating": 4,
     "text": "Приятно иметь дело с профессионалами. Помогли с таможней и всеми бумагами. Автомобилем наслаждаюсь каждый день!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ВладиславНовиков",
+    "avatar": "https://i.ibb.co/Z6vWbN2x/464956514-492061663794472-8528378949887822059-n.jpg",
     "hasMore": true
   },
   {
@@ -98,7 +98,7 @@ export const reviewsData: Review[] = [
     "date": "5 января",
     "rating": 5,
     "text": "Решил приобрести авто из Китая. Ребята предложили отличный вариант, доставили в срок. Рекомендую к сотрудничеству.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ЛюдмилаАлексеева",
+    "avatar": "https://i.ibb.co/zHSFtn7H/379064890-7635669479782187-2097275643738573926-n.jpg",
     "hasMore": true
   },
   {
@@ -108,7 +108,7 @@ export const reviewsData: Review[] = [
     "date": "25 декабря",
     "rating": 5,
     "text": "Покупал машину жене. Сделали всё быстро, качественно. Жена в восторге! Спасибо вам за работу.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ВладиславМихайлов",
+    "avatar": "https://plus.unsplash.com/premium_photo-1697730055032-adcfda098766?w=400",
     "hasMore": false
   },
   {
@@ -118,7 +118,7 @@ export const reviewsData: Review[] = [
     "date": "18 декабря",
     "rating": 4,
     "text": "Выражаю огромную благодарность за помощь в покупке авто. Впервые заказывал из-за границы, очень переживал, но всё прошло идеально.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АлександрОрлов",
+    "avatar": "https://plus.unsplash.com/premium_photo-1711136314731-8c3fe1831672?w=400",
     "hasMore": true
   },
   {
@@ -128,7 +128,7 @@ export const reviewsData: Review[] = [
     "date": "10 декабря",
     "rating": 5,
     "text": "Отличные цены и высокий уровень сервиса. Машина пришла даже быстрее, чем ожидали. Будем обращаться ещё!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=НикитаФёдоров",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Tatiana-Popova",
     "hasMore": true
   },
   {
@@ -138,7 +138,7 @@ export const reviewsData: Review[] = [
     "date": "5 декабря",
     "rating": 5,
     "text": "Спасибо за терпение и помощь в выборе! Рассматривал несколько вариантов, менеджеры детально рассказали про каждый. В итоге взял то, что нужно.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=НикитаСмирнов",
+    "avatar": "https://i.ibb.co/WNFcNbGp/435130106-7618942388164882-854854338928965364-n.jpg",
     "hasMore": true
   },
   {
@@ -148,7 +148,7 @@ export const reviewsData: Review[] = [
     "date": "28 ноября",
     "rating": 5,
     "text": "Лучший автосалон в городе! Привезли авто под заказ из Кореи. Состояние бомба, комплектация максимальная. Спасибо!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МихаилАлексеев",
+    "avatar": "https://i.ibb.co/x8KZkmxJ/448373868-1421989361821584-3649385332487547790-n.jpg",
     "hasMore": true
   },
   {
@@ -158,7 +158,7 @@ export const reviewsData: Review[] = [
     "date": "20 ноября",
     "rating": 5,
     "text": "Сделка прошла быстро и без проблем. Огромная экономия нервов и времени. Автомобиль радует!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ДмитрийКозлов",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Svetlana-Kovaleva",
     "hasMore": false
   },
   {
@@ -168,7 +168,7 @@ export const reviewsData: Review[] = [
     "date": "12 ноября",
     "rating": 4,
     "text": "Честно говоря, сомневался привозить машину на заказ, но ребята развеяли все сомнения. Всё оказалось просто и понятно. Спасибо за честность!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ОльгаМакарова",
+    "avatar": "https://i.ibb.co/Rk6mfyNH/467335735-8859702030758797-219226708521843384-n.jpg",
     "hasMore": true
   },
   {
@@ -178,7 +178,7 @@ export const reviewsData: Review[] = [
     "date": "5 ноября",
     "rating": 4,
     "text": "Заказывали машину для работы. Всё подобрали точно по нашему запросу. Сервис на высоте, надежные партнёры.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=КириллКозлов",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Yulia-Belova",
     "hasMore": true
   },
   {
@@ -188,7 +188,7 @@ export const reviewsData: Review[] = [
     "date": "28 октября",
     "rating": 5,
     "text": "Спасибо за помощь в покупке первого авто. Всё подробно объяснили, сопроводили сделку от начала до конца. Очень рад!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МарияВасильева",
+    "avatar": "https://i.ibb.co/20dgHSJQ/489928434-122103539966838198-2079042567104855759-n.jpg",
     "hasMore": true
   },
   {
@@ -198,7 +198,7 @@ export const reviewsData: Review[] = [
     "date": "20 октября",
     "rating": 4,
     "text": "Купили отличный автомобиль. Ребята работают слаженно и профессионально. Приятно было сотрудничать.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ИльяЗахаров",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Ekaterina-Zaitseva",
     "hasMore": false
   },
   {
@@ -208,7 +208,7 @@ export const reviewsData: Review[] = [
     "date": "10 октября",
     "rating": 5,
     "text": "Настоящие профессионалы. Автомобиль из Европы приехал в отличном состоянии, как и обещали. Всем очень довольны.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=СергейВасильев",
+    "avatar": "https://i.ibb.co/V0pDLF1q/518246760-122112943454925317-8367674197981353866-n.jpg",
     "hasMore": true
   },
   {
@@ -218,7 +218,7 @@ export const reviewsData: Review[] = [
     "date": "5 октября",
     "rating": 5,
     "text": "Очень переживали из-за заказа автомобиля издалека, но ребята все держали под контролем. Автомобиль превзошел все ожидания!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МаксимМихайлов",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Marina-Grigorieva",
     "hasMore": true
   },
   {
@@ -228,7 +228,7 @@ export const reviewsData: Review[] = [
     "date": "28 сентября",
     "rating": 4,
     "text": "Взяли здесь уже вторую машину в семью. Как всегда, все четко, без обмана и задержек. Молодцы!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АртёмВолков",
+    "avatar": "https://plus.unsplash.com/premium_photo-1761576209622-5164470d13ec?w=400",
     "hasMore": false
   },
   {
@@ -238,7 +238,7 @@ export const reviewsData: Review[] = [
     "date": "20 сентября",
     "rating": 5,
     "text": "Искала конкретную комплектацию, нигде не могла найти. Ребята нашли в Европе, привезли и растаможили. Огромное спасибо!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ЕвгенийЕгоров",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Ludmila-Makarova",
     "hasMore": true
   },
   {
@@ -248,7 +248,7 @@ export const reviewsData: Review[] = [
     "date": "15 сентября",
     "rating": 4,
     "text": "Все просто супер! Отличная компания, отличный автомобиль. Рекомендую всем знакомым.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=АлёнаВолкова",
+    "avatar": "https://i.ibb.co/dwGxPZZf/528839942-24035802569380512-8927316941548235793-n.jpg",
     "hasMore": false
   },
   {
@@ -258,7 +258,7 @@ export const reviewsData: Review[] = [
     "date": "5 сентября",
     "rating": 5,
     "text": "Доволен на все 100! Машина приехала вовремя, состояние лучше, чем на фотографиях. Буду обращаться только к вам.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=РусланКозлов",
+    "avatar": "https://images.unsplash.com/photo-1544084944-15269ec7b5a0?w=400",
     "hasMore": true
   },
   {
@@ -268,7 +268,7 @@ export const reviewsData: Review[] = [
     "date": "28 августа",
     "rating": 5,
     "text": "Ребята знают свою работу. Все быстро, по делу. Автомобиль работает как часы.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=ВероникаВасильева",
+    "avatar": "https://i.ibb.co/v6bJXkKt/544848262-122137150100856401-8737273296965530499-n.jpg",
     "hasMore": false
   },
   {
@@ -278,7 +278,7 @@ export const reviewsData: Review[] = [
     "date": "20 августа",
     "rating": 5,
     "text": "Спасибо за отличный автомобиль! Сделка прошла очень комфортно для нас. Удачи вам!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МарияМихайлова",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Antonina-Yakovleva",
     "hasMore": false
   },
   {
@@ -288,7 +288,7 @@ export const reviewsData: Review[] = [
     "date": "10 августа",
     "rating": 5,
     "text": "Заказывал авто из Японии с аукциона. Ребята помогли с переводом листов, подобрали отличный вариант. Очень доволен.",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=СергейАлексеев",
+    "avatar": "https://i.ibb.co/hR6tXVFJ/574041510-811802081817490-6681052307628032346-n.jpg",
     "hasMore": true
   },
   {
@@ -298,7 +298,7 @@ export const reviewsData: Review[] = [
     "date": "5 августа",
     "rating": 5,
     "text": "Помогли с выбором, хотя мы сами не знали, чего хотим. Предложили несколько вариантов из Европы. Выбрали лучший!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=МаксимМихайлов",
+    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=Larisa-Tikhonova",
     "hasMore": true
   },
   {
@@ -308,7 +308,7 @@ export const reviewsData: Review[] = [
     "date": "28 июля",
     "rating": 5,
     "text": "Прекрасный сервис, очень вежливые сотрудники. Машину привезли в оговоренные сроки. Спасибо!",
-    "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=КириллПопов",
+    "avatar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
     "hasMore": false
   }
 ];
