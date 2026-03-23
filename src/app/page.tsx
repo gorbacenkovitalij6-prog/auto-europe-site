@@ -11,7 +11,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { useState, useEffect, useRef } from 'react';
-import { Send, MessageCircle, ChevronRight, Shield, Globe, Clock, CheckCircle2 } from 'lucide-react';
+import { Send, MessageCircle, ChevronRight, Shield, Globe, Clock, CheckCircle2, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 import { supabase, type Car, type VideoReview } from '@/lib/supabase';
 import { ContactDialog } from '@/components/ContactDialog';
@@ -698,17 +698,27 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-5 p-5 rounded-2xl bg-gradient-to-r from-[#0088cc]/20 to-transparent border border-[#0088cc]/30 backdrop-blur-md">
-                  <a
-                    href="https://t.me/LTSPRigon"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-14 h-14 bg-[#0088cc] rounded-full flex items-center justify-center shrink-0 hover:scale-110 transition-transform shadow-[0_0_20px_rgba(0,136,204,0.5)]"
-                  >
-                    <Send className="w-6 h-6 text-white ml-1" />
-                  </a>
-                  <p className="text-white/80 text-sm leading-relaxed">
-                    Свежие поступления и онлайн-консультации <strong>с 8 до 22 МСК</strong> в нашем Telegram!
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 p-5 rounded-2xl bg-gradient-to-r from-[#0088cc]/20 to-transparent border border-[#0088cc]/30 backdrop-blur-md">
+                  <div className="flex gap-3 shrink-0">
+                    <a
+                      href="https://t.me/LTSPRigon"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-14 h-14 bg-[#0088cc] rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_20px_rgba(0,136,204,0.5)]"
+                    >
+                      <Send className="w-6 h-6 text-white ml-1" />
+                    </a>
+                    <a
+                      href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-14 h-14 bg-[#0088cc] rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_20px_rgba(0,136,204,0.5)]"
+                    >
+                      <MessageSquare className="w-6 h-6 text-white" />
+                    </a>
+                  </div>
+                  <p className="text-white/80 text-sm leading-relaxed text-center sm:text-left">
+                    Свежие поступления и онлайн-консультации <strong>с 8 до 22 МСК</strong> в наших мессенджерах!
                   </p>
                 </div>
               </div>

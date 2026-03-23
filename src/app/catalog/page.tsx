@@ -192,15 +192,25 @@ export default function CatalogPage() {
                   
                   <p className="text-white/50 text-xs mb-4 line-clamp-2 flex-grow">{car.description}</p>
                   
-                  <div className="mt-auto">
+                  <div className="mt-auto flex flex-col gap-2">
                     <a
                       href="https://t.me/LTSPRigon"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full"
                     >
+                      <Button className="w-full bg-gradient-to-r from-[#0088cc] to-[#00aadd] hover:from-[#00aadd] hover:to-[#0088cc] text-white shadow-[0_0_15px_rgba(0,136,204,0.3)] hover:shadow-[0_0_20px_rgba(0,136,204,0.5)] transition-all">
+                        Заказать в Telegram
+                      </Button>
+                    </a>
+                    <a
+                      href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full"
+                    >
                       <Button className="w-full bg-gradient-to-r from-primary to-blue-600 hover:from-blue-600 hover:to-primary text-white shadow-[0_0_15px_rgba(59,130,246,0.3)] hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all">
-                        Заказать такой же
+                        Заказать в MAX
                       </Button>
                     </a>
                   </div>

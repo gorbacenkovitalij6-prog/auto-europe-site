@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Send, MessageCircle } from 'lucide-react';
+import { Send, MessageCircle, MessageSquare } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export function Header() {
@@ -49,11 +49,20 @@ export function Header() {
             <Send className="w-4 h-4 text-white/70 group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
-            href="tel:+74951856386"
+            href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-primary/50 group"
+            title="Наш MAX мессенджер"
+          >
+            <MessageSquare className="w-4 h-4 text-white/70 group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
+          </a>
+          <a
+            href="tel:+79393223704"
             className="hidden lg:flex items-center gap-2 bg-gradient-to-r from-primary to-blue-600 hover:from-blue-600 hover:to-primary text-white px-5 py-2.5 rounded-full font-medium shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transform hover:-translate-y-0.5 whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
-            <span className="text-sm tracking-wide">+7 (495) 185-63-86</span>
+            <span className="text-sm tracking-wide">+7(939)322-37-04</span>
           </a>
         </div>
       </div>

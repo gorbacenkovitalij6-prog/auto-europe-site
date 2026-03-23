@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Send, MessageCircle, Clock } from 'lucide-react';
+import { Send, MessageCircle, Clock, MessageSquare } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -21,6 +21,9 @@ export function Footer() {
             <div className="flex items-center gap-4">
               <a href="https://t.me/LTSPRigon" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 hover:border-[#0088cc] hover:bg-[#0088cc]/10 hover:text-[#0088cc] text-white/70 transition-all">
                 <Send className="w-4 h-4 ml-0.5" />
+              </a>
+              <a href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 hover:border-[#0088cc] hover:bg-[#0088cc]/10 hover:text-[#0088cc] text-white/70 transition-all">
+                <MessageSquare className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -45,13 +48,13 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6 tracking-wide text-sm uppercase">Контакты</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+74951856386" className="flex items-start gap-3 group">
+                <a href="tel:+79393223704" className="flex items-start gap-3 group">
                   <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-primary/50 transition-colors shrink-0">
                     <MessageCircle className="w-3.5 h-3.5 text-primary" />
                   </div>
                   <div>
                     <div className="text-white/40 text-xs mb-0.5">Телефон (8-20 МСК)</div>
-                    <div className="text-white/80 group-hover:text-white text-sm font-medium transition-colors">+7 (495) 185-63-86</div>
+                    <div className="text-white/80 group-hover:text-white text-sm font-medium transition-colors">+7(939)322-37-04</div>
                   </div>
                 </a>
               </li>
