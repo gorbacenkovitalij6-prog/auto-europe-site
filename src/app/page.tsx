@@ -13,14 +13,12 @@ import {
 import { useState, useEffect, useRef } from 'react';
 import { Send, MessageCircle, ChevronRight, Shield, Globe, Clock, CheckCircle2, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
-import { supabase, type Car, type VideoReview } from '@/lib/supabase';
+import { supabase, type VideoReview } from '@/lib/supabase';
 import { ContactDialog } from '@/components/ContactDialog';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 export default function Home() {
   const [agreed, setAgreed] = useState(false);
-  const [cars, setCars] = useState<Car[]>([]);
-  const [loading, setLoading] = useState(true);
   const [contactDialogOpen, setContactDialogOpen] = useState(false);
   const [heroFormData, setHeroFormData] = useState({
     name: '',
@@ -31,7 +29,6 @@ export default function Home() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    fetchCars();
     
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -40,23 +37,7 @@ export default function Home() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  async function fetchCars() {
-    try {
-      const { data, error } = await supabase
-        .from('cars')
-        .select('*')
-        .eq('status', 'available')
-        .order('created_at', { ascending: false })
-        .limit(4);
 
-      if (error) throw error;
-      setCars(data || []);
-    } catch (error) {
-      console.error('Error fetching cars:', error);
-    } finally {
-      setLoading(false);
-    }
-  }
 
   async function handleHeroFormSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -311,143 +292,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cars Section */}
-      <section className="w-full py-20 px-6 bg-card relative">
-        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-        
-        <div className="w-full max-w-screen-2xl mx-auto">
-          <div className="flex flex-col items-center mb-16 text-center">
-            <span className="text-primary font-bold tracking-widest text-sm uppercase mb-3 drop-shadow-md">Каталог</span>
-            <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
-              АВТОМОБИЛИ ГОТОВЫЕ К ОТПРАВКЕ
-            </h2>
-            <div className="h-1 w-20 bg-gradient-to-r from-primary to-blue-400 rounded-full" />
-          </div>
 
-          {loading ? (
-            <div className="text-center py-20">
-              <div className="w-16 h-16 border-4 border-white/10 border-t-primary rounded-full animate-spin mx-auto mb-6" />
-              <p className="text-white/60 text-lg animate-pulse">Загрузка эксклюзивных предложений...</p>
-            </div>
-          ) : cars.length === 0 ? (
-            <div className="text-center py-24 glass-panel rounded-2xl border border-white/5">
-              <div className="text-6xl mb-6 opacity-50">🏎️</div>
-              <p className="text-white text-2xl font-semibold mb-3">Каталог обновляется</p>
-              <p className="text-white/50 mb-8 max-w-md mx-auto">
-                В данный момент нет автомобилей в наличии. Добавьте первый автомобиль через панель управления.
-              </p>
-              <Link href="/admin">
-                <Button className="bg-white text-black hover:bg-gray-200 px-8 py-6 rounded-xl font-bold transition-all">
-                  Перейти в админ-панель
-                </Button>
-              </Link>
-            </div>
-          ) : (
-            <>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {cars.map((car) => (
-                  <div key={car.id} className="group bg-background rounded-2xl overflow-hidden border border-white/5 hover:border-primary/50 transition-all duration-500 hover:shadow-[0_8px_30px_rgba(59,130,246,0.15)] flex flex-col h-full transform hover:-translate-y-1">
-                    {/* Car Image with Status Badge */}
-                    <div className="relative h-60 overflow-hidden bg-white/5">
-                      {car.images && car.images.length > 0 ? (
-                        <img
-                          src={car.images[0]}
-                          alt={`${car.brand} ${car.model}`}
-                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center text-white/20">
-                          <div className="text-center">
-                            <div className="text-4xl mb-2">🚗</div>
-                            <div className="text-sm font-medium">Нет фото</div>
-                          </div>
-                        </div>
-                      )}
-                      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-80" />
-                      
-                      {/* Price Badge over Image */}
-                      <div className="absolute bottom-4 left-4 right-4 flex justify-between items-end">
-                        <div>
-                          <p className="text-white/70 text-xs font-semibold uppercase tracking-wider mb-1 flex items-center gap-1">
-                            {car.year} <span className="w-1 h-1 rounded-full bg-primary" /> {car.mileage.toLocaleString()} км
-                          </p>
-                          <h3 className="text-2xl font-bold text-white leading-tight">
-                            {car.brand} {car.model}
-                          </h3>
-                        </div>
-                      </div>
-
-                      {/* Status Badges */}
-                      {car.status === 'sold' && (
-                        <div className="absolute top-4 right-4 bg-blue-600/90 backdrop-blur-md text-white px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wide border border-blue-500/50">
-                          Продано
-                        </div>
-                      )}
-                      {car.status === 'reserved' && (
-                        <div className="absolute top-4 right-4 bg-blue-500/90 backdrop-blur-md text-white px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wide border border-blue-400/50">
-                          Резерв
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Car Info */}
-                    <div className="p-6 flex flex-col flex-grow">
-                      
-                      <div className="grid grid-cols-2 gap-y-3 gap-x-4 text-sm text-white/60 mb-6 flex-grow">
-                        <div className="flex items-center gap-2">
-                           <span className="text-primary">•</span> Двигатель: <span className="text-white">{car.fuel_type} {car.engine_volume ? `${car.engine_volume}л` : ''}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                           <span className="text-primary">•</span> КПП: <span className="text-white">{car.transmission}</span>
-                        </div>
-                        {car.drive_type && (
-                          <div className="flex items-center gap-2">
-                            <span className="text-primary">•</span> Привод: <span className="text-white">{car.drive_type}</span>
-                          </div>
-                        )}
-                      </div>
-
-                      {/* Price & Action */}
-                      <div className="pt-4 border-t border-white/5 flex items-center justify-between mt-auto">
-                        <div>
-                          <div className="text-xs text-white/40 mb-1">Итоговая цена</div>
-                          <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
-                            {car.price.toLocaleString()} ₽
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <div className="flex gap-3 mt-5">
-                        <Link href="/catalog" className="flex-1">
-                          <Button variant="outline" className="w-full bg-transparent border-white/20 text-white hover:bg-white hover:text-black transition-all">
-                            Детали
-                          </Button>
-                        </Link>
-                        <Button
-                          onClick={() => setContactDialogOpen(true)}
-                          className="flex-1 bg-gradient-to-r from-primary to-blue-600 hover:from-blue-600 hover:to-primary text-white border-0"
-                        >
-                          Заказать
-                        </Button>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              {/* View All Button */}
-              <div className="text-center mt-16 relative">
-                <Link href="/catalog">
-                  <Button className="bg-white text-black hover:bg-gray-200 px-10 py-7 text-lg font-bold rounded-xl transition-all shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] group">
-                    Смотреть весь каталог
-                    <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                </Link>
-              </div>
-            </>
-          )}
-        </div>
-      </section>
 
       {/* Guarantees Section */}
       <section className="w-full py-24 px-6 relative overflow-hidden">

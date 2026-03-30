@@ -25,10 +25,10 @@ export function Header() {
 
         {/* Navigation */}
         <nav className="hidden md:flex xl:gap-8 gap-5 items-center">
-          {['Главная', 'О нас', 'Команда', 'Отзывы', 'Каталог'].map((item) => (
+          {['Главная', 'О нас', 'Команда', 'Отзывы'].map((item) => (
             <Link 
               key={item} 
-              href={item === 'Главная' ? '/' : `/${item === 'О нас' ? 'about' : item === 'Команда' ? 'team' : item === 'Отзывы' ? 'reviews' : 'catalog'}`}
+              href={item === 'Главная' ? '/' : `/${item === 'О нас' ? 'about' : item === 'Команда' ? 'team' : 'reviews'}`}
               className="text-sm font-medium text-white/70 hover:text-white transition-colors relative group py-2"
             >
               {item}
