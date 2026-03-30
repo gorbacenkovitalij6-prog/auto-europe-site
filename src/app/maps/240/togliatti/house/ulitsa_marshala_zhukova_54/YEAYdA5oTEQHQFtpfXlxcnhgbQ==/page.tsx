@@ -25,7 +25,7 @@ export default function Page() {
   const [showRouteModal, setShowRouteModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [routeFrom, setRouteFrom] = useState('');
-  const [routeTo, setRouteTo] = useState('180006, Псковская область, г. Псков, ул. Леона Поземского, д. 125, офис 1');
+  const [routeTo, setRouteTo] = useState('214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305');
   const [selectedTransport, setSelectedTransport] = useState<'auto' | 'transit' | 'walk'>('auto');
   const [uploadedPhotos, setUploadedPhotos] = useState<string[]>([]);
   const [isDragging, setIsDragging] = useState(false);
@@ -48,19 +48,19 @@ export default function Page() {
     "Спасибо за ваш отзыв! Мы очень рады, что смогли помочь вам с выбором автомобиля. Для нас важно, чтобы каждый клиент остался доволен. Будем рады видеть вас снова!",
     "Благодарим за теплые слова! Ваше мнение очень важно для нас. Рады были помочь в подборе идеального автомобиля. Желаем приятных поездок!",
     "Огромное спасибо за доверие! Мы всегда стараемся обеспечить высокий уровень сервиса. Рады, что вы остались довольны нашей работой!",
-    "Спасибо, что выбрали ООО ЛТС! Ваша оценка мотивирует нас работать ещё лучше. Успехов на дорогах!",
-    "Благодарим за положительный отзыв! Команда ООО ЛТС всегда рада помочь в выборе качественного автомобиля. Обращайтесь, если понадобится помощь!",
+    "Спасибо, что выбрали ООО "СД-Сервис"! Ваша оценка мотивирует нас работать ещё лучше. Успехов на дорогах!",
+    "Благодарим за положительный отзыв! Команда ООО "СД-Сервис" всегда рада помочь в выборе качественного автомобиля. Обращайтесь, если понадобится помощь!",
     "Спасибо за высокую оценку нашей работы! Мы ценим каждого клиента и стремимся к совершенству. Удачи вам и вашему новому автомобилю!",
     "Признательны за ваш отзыв! Рады, что смогли оправдать ваши ожидания. Всегда готовы помочь с подбором автомобиля мечты!",
     "Большое спасибо за доверие к нашей компании! Профессионализм команды - наша главная ценность. Рады были помочь!",
     "Благодарим за такую высокую оценку! Ваше удовлетворение - лучшая награда для нас. Ждем вас снова за следующим автомобилем!",
     "Спасибо за подробный отзыв! Мы всегда на связи и готовы помочь с любыми вопросами. Приятных и безопасных вам поездок!",
     "Ценим ваше мнение! Для нас важен каждый клиент. Рады, что процесс покупки прошел гладко. Удачи на дорогах!",
-    "Спасибо за позитивный отзыв! Наша команда работает для вашего комфорта. Всегда рады видеть вас в ООО ЛТС!",
+    "Спасибо за позитивный отзыв! Наша команда работает для вашего комфорта. Всегда рады видеть вас в ООО "СД-Сервис"!",
     "Благодарим за оценку нашего сервиса! Индивидуальный подход к каждому клиенту - наш принцип работы. Успехов!",
     "Огромное спасибо! Рады были помочь найти автомобиль вашей мечты. Обращайтесь, если понадобится консультация!",
     "Спасибо за выбор нашей компании! Ваш отзыв очень важен для нас. Желаем вам приятных впечатлений от нового авто!",
-    "Признательны за такие теплые слова! Команда ООО ЛТС всегда старается превзойти ожидания. Спасибо!",
+    "Признательны за такие теплые слова! Команда ООО "СД-Сервис" всегда старается превзойти ожидания. Спасибо!",
     "Благодарим за доверие! Качество и честность - основа нашей работы. Рады были вам помочь!",
     "Спасибо за отзыв! Мы ценим каждого клиента и рады, что оправдали ваши ожидания. До новых встреч!",
     "Большое спасибо за положительную оценку! Ваше удовлетворение - наша цель. Удачи на дорогах!",
@@ -208,7 +208,7 @@ export default function Page() {
   const handleCallButtonClick = () => {
     if (showPhoneNumber) {
       // Второе нажатие - звоним
-      window.location.href = 'tel:+79393223704';
+      window.location.href = 'tel:+79383591091';
     } else {
       // Первое нажатие - показываем номер
       setShowPhoneNumber(true);
@@ -459,7 +459,7 @@ export default function Page() {
           <div className="sticky top-[57px] lg:top-0 z-30 bg-white shadow-sm">
             {/* Title */}
             <div className="pt-3 lg:pt-6 pb-2 lg:pb-4 bg-white">
-              <h1 className="text-[20px] lg:text-[32px] font-normal lg:font-medium text-black px-4 lg:px-12">ООО ЛТС</h1>
+              <h1 className="text-[20px] lg:text-[32px] font-normal lg:font-medium text-black px-4 lg:px-12">ООО "СД-Сервис"</h1>
             </div>
 
             {/* Tabs */}
@@ -510,7 +510,7 @@ export default function Page() {
               <div className="mb-3 lg:mb-2 bg-white rounded-lg p-4 lg:p-6 flex items-center justify-center">
                 <img
                   src="/logoo.jpg"
-                  alt="ООО ЛТС"
+                  alt="ООО "СД-Сервис""
                   className="w-full max-w-[280px] lg:max-w-md h-auto"
                   loading="eager"
                   decoding="async"
@@ -521,7 +521,7 @@ export default function Page() {
               <div className="mb-5 lg:mb-6">
                 <h2 className="text-[16px] lg:text-[18px] font-medium text-gray-800 mb-2 lg:mb-3">О компании</h2>
                 <p className="text-[14px] lg:text-[15px] text-gray-700 leading-relaxed">
-                  ООО ЛТС - надежная компания по продаже качественных подержанных автомобилей в Пскове.
+                  ООО "СД-Сервис" - надежная компания по продаже качественных подержанных автомобилей в Пскове.
                   Мы специализируемся на подборе и продаже автомобилей из Европы с учетом всех пожеланий и бюджета клиента.
                   Наша команда профессионалов поможет вам выбрать идеальный автомобиль и быстро оформить все необходимые документы.
                 </p>
@@ -536,12 +536,12 @@ export default function Page() {
                   <div>
                     <div className="text-[13px] lg:text-[14px] font-medium text-gray-800 mb-0.5">Адрес</div>
                     <a
-                      href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=180006%2C%20Псковская%20область%2C%20г.%20Псков%2C%20ул.%20Леона%20Поземского%2C%20д.%20125%2C%20офис%201"
+                      href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=214012%2C%20Смоленская%20область%2C%20г%20Смоленск%2C%20Ново-Московская%20ул%2C%20д.%202%2F8%2C%20офис%20305"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 hover:underline cursor-pointer"
                     >
-                      180006, Псковская область, г. Псков, ул. Леона Поземского, д. 125, офис 1
+                      214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305
                     </a>
                   </div>
                 </div>
@@ -554,7 +554,7 @@ export default function Page() {
                   <div>
                     <div className="text-[13px] lg:text-[14px] font-medium text-gray-800 mb-0.5">Телефон</div>
                     {showPhoneNumber ? (
-                      <a href="tel:+79393223704" className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (939) 322-37-04</a>
+                      <a href="tel:+79383591091" className="text-[13px] lg:text-[14px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7(938)359-10-91</a>
                     ) : (
                       <button
                         onClick={() => setShowPhoneNumber(true)}
@@ -602,7 +602,7 @@ export default function Page() {
               {/* Quick Actions */}
               <div className="flex gap-2 lg:gap-3 mb-5 lg:mb-6">
                 <a
-                  href="tel:+79393223704"
+                  href="tel:+79383591091"
                   className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 lg:px-4 py-2.5 rounded-lg text-[13px] lg:text-[14px] font-medium transition-all active:scale-95 text-center"
                 >
                   Позвонить
@@ -628,7 +628,7 @@ export default function Page() {
                     <div className="w-full h-32 flex items-center justify-center">
                       <img
                         src="/logoo.jpg"
-                        alt="ООО ЛТС"
+                        alt="ООО "СД-Сервис""
                         className="w-full max-w-[200px] h-auto"
                         loading="lazy"
                         decoding="async"
@@ -647,7 +647,7 @@ export default function Page() {
                     <div className="w-full h-32 flex items-center justify-center">
                       <img
                         src="/logoo.jpg"
-                        alt="ООО ЛТС"
+                        alt="ООО "СД-Сервис""
                         className="w-full max-w-[200px] h-auto"
                         loading="lazy"
                         decoding="async"
@@ -666,7 +666,7 @@ export default function Page() {
                     <div className="w-full h-32 flex items-center justify-center">
                       <img
                         src="/logoo.jpg"
-                        alt="ООО ЛТС"
+                        alt="ООО "СД-Сервис""
                         className="w-full max-w-[200px] h-auto"
                         loading="lazy"
                         decoding="async"
@@ -1436,7 +1436,7 @@ export default function Page() {
                             <span className="text-white text-[10px] lg:text-xs font-bold">AP</span>
                           </div>
                           <div>
-                            <div className="text-[13px] lg:text-[14px] font-semibold text-gray-900">ООО ЛТС</div>
+                            <div className="text-[13px] lg:text-[14px] font-semibold text-gray-900">ООО "СД-Сервис"</div>
                             <div className="text-[11px] lg:text-[12px] text-gray-500">Представитель компании</div>
                           </div>
                         </div>
@@ -1496,7 +1496,7 @@ export default function Page() {
                       <div className="w-full bg-white rounded-lg p-4 flex items-center justify-center">
                         <img
                           src="/logoo.jpg"
-                          alt="ООО ЛТС"
+                          alt="ООО "СД-Сервис""
                           className="w-full max-w-xs h-auto"
                         />
                       </div>
@@ -1504,8 +1504,8 @@ export default function Page() {
 
                     {/* Company Info */}
                     <div className="px-6 pt-3 pb-3">
-                      <h3 className="text-[17px] font-medium text-gray-900">ООО ЛТС</h3>
-                      <a href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=180006%2C%20Псковская%20область%2C%20г.%20Псков%2C%20ул.%20Леона%20Поземского%2C%20д.%20125%2C%20офис%201" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Леона Поземского, д. 125, офис 1</a>
+                      <h3 className="text-[17px] font-medium text-gray-900">ООО "СД-Сервис"</h3>
+                      <a href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=214012%2C%20Смоленская%20область%2C%20г%20Смоленск%2C%20Ново-Московская%20ул%2C%20д.%202%2F8%2C%20офис%20305" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Леона Поземского, д. 125, офис 1</a>
                     </div>
 
                     {/* Form */}
@@ -1787,7 +1787,7 @@ export default function Page() {
           {/* Collapsed state */}
           {bottomSheetState === 'collapsed' && (
             <div className="px-4" style={{ paddingBottom: 'max(20px, env(safe-area-inset-bottom))' }}>
-              <h2 className="text-gray-900 text-[17px] xs:text-[18px] iphone-16-pro-max:text-[19px] font-medium mb-1">ООО ЛТС</h2>
+              <h2 className="text-gray-900 text-[17px] xs:text-[18px] iphone-16-pro-max:text-[19px] font-medium mb-1">ООО "СД-Сервис"</h2>
               <p className="text-gray-600 text-[12px] xs:text-[13px] iphone-16-pro-max:text-[14px] mb-2.5">Автосалон, пригон автомобилей</p>
 
               <div className="flex items-center gap-1.5 mb-2.5">
@@ -1855,7 +1855,7 @@ export default function Page() {
                 <div className="relative h-64 xs:h-72 iphone-16-pro-max:h-80 bg-white flex-shrink-0 flex items-center justify-center p-8">
                   <img
                     src="/logoo.jpg"
-                    alt="ООО ЛТС"
+                    alt="ООО "СД-Сервис""
                     className="w-full max-w-md h-auto object-contain"
                     loading="eager"
                     decoding="async"
@@ -1874,7 +1874,7 @@ export default function Page() {
                 <div className="px-4 iphone-16-pro-max:px-5 py-3">
                   <div className="flex items-start justify-between mb-2">
                     <div className="flex-1 min-w-0 pr-2">
-                      <h2 className="text-gray-900 text-[18px] xs:text-[19px] iphone-16-pro-max:text-[20px] font-medium mb-0.5 truncate">ООО ЛТС</h2>
+                      <h2 className="text-gray-900 text-[18px] xs:text-[19px] iphone-16-pro-max:text-[20px] font-medium mb-0.5 truncate">ООО "СД-Сервис"</h2>
                       <p className="text-gray-600 text-[12px] xs:text-[13px] iphone-16-pro-max:text-[14px]">Автосалон, пригон автомобилей</p>
                     </div>
                     <div className="flex items-center gap-1.5 iphone-16-pro-max:gap-2 flex-shrink-0">
@@ -2021,7 +2021,7 @@ export default function Page() {
                       <div>
                         <h3 className="text-gray-900 text-[15px] xs:text-[16px] iphone-16-pro-max:text-[17px] font-medium mb-2">О компании</h3>
                         <p className="text-gray-700 text-[13px] xs:text-[14px] iphone-16-pro-max:text-[15px] leading-relaxed">
-                          ООО ЛТС - надежная компания по продаже качественных подержанных автомобилей в Пскове.
+                          ООО "СД-Сервис" - надежная компания по продаже качественных подержанных автомобилей в Пскове.
                           Мы специализируемся на подборе и продаже автомобилей из Европы с учетом всех пожеланий и бюджета клиента.
                           Наша команда профессионалов поможет вам выбрать идеальный автомобиль и быстро оформить все необходимые документы.
                         </p>
@@ -2036,12 +2036,12 @@ export default function Page() {
                           <div className="flex-1 min-w-0">
                             <div className="text-[12px] xs:text-[13px] font-medium text-gray-800 mb-0.5">Адрес</div>
                             <a
-                              href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=180006%2C%20Псковская%20область%2C%20г.%20Псков%2C%20ул.%20Леона%20Поземского%2C%20д.%20125%2C%20офис%201"
+                              href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=214012%2C%20Смоленская%20область%2C%20г%20Смоленск%2C%20Ново-Московская%20ул%2C%20д.%202%2F8%2C%20офис%20305"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 leading-relaxed block"
                             >
-                              180006, Псковская область, г. Псков, ул. Леона Поземского, д. 125, офис 1
+                              214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305
                             </a>
                           </div>
                         </div>
@@ -2055,7 +2055,7 @@ export default function Page() {
                             <div className="text-[12px] xs:text-[13px] font-medium text-gray-800 mb-0.5">Телефон</div>
                             <div className="flex items-center gap-2">
                               {showPhoneNumber ? (
-                                <a href="tel:+79393223704" className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7 (939) 322-37-04</a>
+                                <a href="tel:+79383591091" className="text-[12px] xs:text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 font-medium">+7(938)359-10-91</a>
                               ) : (
                                 <button
                                   onClick={() => setShowPhoneNumber(true)}
@@ -2105,7 +2105,7 @@ export default function Page() {
                       {/* Quick Actions */}
                       <div className="flex gap-2">
                         <a
-                          href="tel:+79393223704"
+                          href="tel:+79383591091"
                           className="flex-1 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white px-3 py-2.5 rounded-lg text-[13px] font-medium transition-all active:scale-95 text-center"
                         >
                           Позвонить
@@ -2128,7 +2128,7 @@ export default function Page() {
                           <div className="w-full h-24 xs:h-28 flex items-center justify-center">
                             <img
                               src="/logoo.jpg"
-                              alt="ООО ЛТС"
+                              alt="ООО "СД-Сервис""
                               className="w-full max-w-[160px] xs:max-w-[180px] h-auto"
                               loading="lazy"
                               decoding="async"
@@ -2147,7 +2147,7 @@ export default function Page() {
                           <div className="w-full h-24 xs:h-28 flex items-center justify-center">
                             <img
                               src="/logoo.jpg"
-                              alt="ООО ЛТС"
+                              alt="ООО "СД-Сервис""
                               className="w-full max-w-[160px] xs:max-w-[180px] h-auto"
                               loading="lazy"
                               decoding="async"
@@ -2166,7 +2166,7 @@ export default function Page() {
                           <div className="w-full h-24 xs:h-28 flex items-center justify-center">
                             <img
                               src="/logoo.jpg"
-                              alt="ООО ЛТС"
+                              alt="ООО "СД-Сервис""
                               className="w-full max-w-[160px] xs:max-w-[180px] h-auto"
                               loading="lazy"
                               decoding="async"
@@ -2846,7 +2846,7 @@ export default function Page() {
                                     <span className="text-white text-[10px] font-bold">AP</span>
                                   </div>
                                   <div>
-                                    <div className="text-[12px] xs:text-[13px] font-semibold text-gray-900">ООО ЛТС</div>
+                                    <div className="text-[12px] xs:text-[13px] font-semibold text-gray-900">ООО "СД-Сервис"</div>
                                     <div className="text-[10px] xs:text-[11px] text-gray-500">Представитель компании</div>
                                   </div>
                                 </div>
@@ -3332,12 +3332,12 @@ export default function Page() {
             <div className="overflow-y-auto flex-1">
               <div className="px-6 pt-2">
                 <div className="w-full bg-white rounded-lg p-4 flex items-center justify-center">
-                  <img src="/logoo.jpg" alt="ООО ЛТС" className="w-full max-w-xs h-auto" loading="lazy" decoding="async" />
+                  <img src="/logoo.jpg" alt="ООО "СД-Сервис"" className="w-full max-w-xs h-auto" loading="lazy" decoding="async" />
                 </div>
               </div>
               <div className="px-6 pt-3 pb-3">
-                <h3 className="text-[17px] font-medium text-gray-900">ООО ЛТС</h3>
-                <a href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=180006%2C%20Псковская%20область%2C%20г.%20Псков%2C%20ул.%20Леона%20Поземского%2C%20д.%20125%2C%20офис%201" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Леона Поземского, д. 125, офис 1</a>
+                <h3 className="text-[17px] font-medium text-gray-900">ООО "СД-Сервис"</h3>
+                <a href="https://yandex.ru/maps/?ll=28.308124%2C57.843463&z=18&text=214012%2C%20Смоленская%20область%2C%20г%20Смоленск%2C%20Ново-Московская%20ул%2C%20д.%202%2F8%2C%20офис%20305" target="_blank" rel="noopener noreferrer" className="text-[13px] text-blue-600 hover:text-blue-700 active:text-blue-800 mt-0.5 block">ул. Леона Поземского, д. 125, офис 1</a>
               </div>
               <div className="px-6 pb-6 space-y-4">
                 <div className="flex gap-2 justify-center" onMouseLeave={() => setHoverRatingModal(0)}>
@@ -3470,8 +3470,8 @@ export default function Page() {
               </svg>
               <span className="text-[15px] font-medium">Номер телефона:</span>
             </div>
-            <a href="tel:+79393223704" className="text-[18px] font-bold hover:underline">
-              +7 (939) 322-37-04
+            <a href="tel:+79383591091" className="text-[18px] font-bold hover:underline">
+              +7(938)359-10-91
             </a>
             <div className="text-[13px] mt-2 opacity-90">
               Нажмите еще раз для звонка

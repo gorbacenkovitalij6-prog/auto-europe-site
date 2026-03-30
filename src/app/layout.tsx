@@ -4,8 +4,8 @@ import ClientBody from "./ClientBody";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "ООО ЛТС — Яндекс Карты",
-  description: "ООО ЛТС, 180006, Псковская область, г. Псков, ул. Леона Поземского, д. 125, офис 1 — отзывы, фото, время работы, телефон и адрес на карте",
+  title: "ООО "СД-Сервис" — Яндекс Карты",
+  description: "ООО "СД-Сервис", 214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305 — отзывы, фото, время работы, телефон и адрес на карте",
   icons: {
     icon: [
       { url: '/yandex-icon.svg', type: 'image/svg+xml' },
