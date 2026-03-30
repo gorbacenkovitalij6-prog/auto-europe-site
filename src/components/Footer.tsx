@@ -13,7 +13,7 @@ export function Footer() {
           {/* Brand Column */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-block group mb-6 hover:opacity-80 transition-opacity">
-              <img src="/logo.jpg" alt="ЛТС" className="h-16 w-auto object-contain rounded-md" />
+              <img src="/logo.jpg" alt="СД-Сервис" className="h-16 w-auto object-contain rounded-md" />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6 max-w-sm">
               Мы — ваш надёжный партнёр по покупке и доставке лучших автомобилей из Европы. Премиальный сервис без компромиссов.
@@ -48,13 +48,13 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6 tracking-wide text-sm uppercase">Контакты</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+79393223704" className="flex items-start gap-3 group">
+                <a href="tel:+79383591091" className="flex items-start gap-3 group">
                   <div className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center border border-white/10 group-hover:border-primary/50 transition-colors shrink-0">
                     <MessageCircle className="w-3.5 h-3.5 text-primary" />
                   </div>
                   <div>
                     <div className="text-white/40 text-xs mb-0.5">Телефон (8-20 МСК)</div>
-                    <div className="text-white/80 group-hover:text-white text-sm font-medium transition-colors">+7(939)322-37-04</div>
+                    <div className="text-white/80 group-hover:text-white text-sm font-medium transition-colors">+7(938)359-10-91</div>
                   </div>
                 </a>
               </li>
@@ -75,7 +75,7 @@ export function Footer() {
 
       <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-white/40 text-sm">
-          © {new Date().getFullYear()} ЛТС. Все права защищены.
+          © {new Date().getFullYear()} СД-Сервис. Все права защищены.
         </p>
         <div className="flex flex-wrap items-center justify-center md:justify-end gap-6 text-sm">
           <Link href="/privacy" className="text-white/40 hover:text-white/80 transition-colors">

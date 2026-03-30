@@ -88,7 +88,7 @@ export default function AboutPage() {
             {/* Left side - Text */}
             <div className="text-white space-y-4">
               <p className="text-base leading-relaxed">
-                <strong>«ЛТС»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 11 лет.
+                <strong>«СД-Сервис»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 11 лет.
               </p>
               <p className="text-base leading-relaxed">
                 Мы работаем напрямую с европейскими дилерами, аукционами и проверенными продавцами, чтобы вы получали честный, прозрачный и выгодный вариант без переплат перекупам.
@@ -194,7 +194,7 @@ export default function AboutPage() {
             {/* Why Choose Us Card */}
             <div className="glass-panel border-white/10 rounded-2xl p-8 shadow-xl hover:border-primary/30 transition-colors">
               <h2 className="text-2xl font-bold text-white mb-8">
-                ПОЧЕМУ «ЛТС»
+                ПОЧЕМУ «СД-Сервис»
               </h2>
 
               <div className="space-y-6">

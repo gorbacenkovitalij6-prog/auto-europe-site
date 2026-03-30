@@ -20,7 +20,7 @@ export function Header() {
       <div className="w-full max-w-screen-2xl px-6 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <img src="/logo.jpg" alt="ЛТС" className="h-12 w-auto object-contain rounded-md shadow-sm group-hover:shadow-md transition-shadow" />
+          <img src="/logo.jpg" alt="СД-Сервис" className="h-12 w-auto object-contain rounded-md shadow-sm group-hover:shadow-md transition-shadow" />
         </Link>
 
         {/* Navigation */}
@@ -58,11 +58,11 @@ export function Header() {
             <MessageSquare className="w-4 h-4 text-white/70 group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
-            href="tel:+79393223704"
+            href="tel:+79383591091"
             className="hidden lg:flex items-center gap-2 bg-gradient-to-r from-primary to-blue-600 hover:from-blue-600 hover:to-primary text-white px-5 py-2.5 rounded-full font-medium shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transform hover:-translate-y-0.5 whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
-            <span className="text-sm tracking-wide">+7(939)322-37-04</span>
+            <span className="text-sm tracking-wide">+7(938)359-10-91</span>
           </a>
         </div>
       </div>

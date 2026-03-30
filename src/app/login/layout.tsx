@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Вход в систему - ЛТС",
-  description: "Вход в панель управления ЛТС",
+  title: "Вход в систему - СД-Сервис",
+  description: "Вход в панель управления СД-Сервис",
   robots: {
     index: false,
     follow: false,

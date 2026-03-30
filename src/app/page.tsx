@@ -671,7 +671,7 @@ export default function Home() {
                   Наш опыт работает на вас
                 </div>
                 <h3 className="text-3xl md:text-5xl font-black text-white mb-4 leading-tight tracking-tight text-glow">
-                  «ЛТС» — ВАШ НАДЕЖНЫЙ ПАРТНЁР
+                  «СД-Сервис» — ВАШ НАДЕЖНЫЙ ПАРТНЁР
                 </h3>
                 <p className="text-white/70 mb-8 text-lg font-medium">
                   Мы экономим ваше время, бережем нервы и защищаем ваши интересы при покупке авто из Европы.

@@ -214,7 +214,7 @@ export default function ReviewsPage() {
           <div className="max-w-screen-2xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">ОТЗЫВЫ КЛИЕНТОВ</h1>
             <p className="text-white/80 max-w-2xl mx-auto text-lg">
-              Мы гордимся доверием наших клиентов. Узнайте, что говорят о работе с ЛТС.
+              Мы гордимся доверием наших клиентов. Узнайте, что говорят о работе с СД-Сервис.
             </p>
           </div>
         </div>
